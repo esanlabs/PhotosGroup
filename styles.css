@@ -14,212 +14,89 @@
     --color-primary2: rgba(190,12,44, 1);
     --color-primary2-medium: rgba(190,12,44, 0.5);
     --color-primary2-low: rgba(190,12,44, 0.2);
-    --color-bg: rgba(242, 241, 132, 207, 177);
+    --color-bg: rgba(242, 241, 132, 0.8); /* Corregido el valor incorrecto de rgba */
 }
 
-*{
+* {
     font-family: 'NimbusSanL', Arial, sans-serif;
 }
 
-#carouselExampleAutoplaying  img{
-    height: 600px;
-    width: auto;
+#carouselExampleAutoplaying img {
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
-#carouselExampleAutoplaying #btn_style{
-    align-self: center;
-    width: 40px;
-    height: 40px;
-    margin: 0px 10px;
-}
-
-#carouselExampleAutoplaying #btn_style:nth-of-type(1) {
-    background-color: var(--color-primary);
-    opacity: 1;
-}
-
-#carouselExampleAutoplaying #btn_style:nth-of-type(2) {
-    background-color: var(--color-third);
-    opacity: 1;
-}
-
-#carouselExampleAutoplaying div div div{
-    /* border: 1px solid black; */
-    padding: 0px;
-    margin: 0px;
+#carouselExampleAutoplaying,
+#carouselExampleAutoplaying2,
+#carouselExampleAutoplaying3 {
     display: flex;
-    width: 600px;
-    margin-bottom: 200px;
-    /* margin-left: -50px; */
-}
-#carouselExampleAutoplaying div div div p:nth-of-type(1) {
-    font-size: 35px;
-    font-weight: bold;
-    background-color: var(--color-primary);
-    width: fit-content;
-    padding: 0px 20px;
-    margin: 10px;
-}
-#carouselExampleAutoplaying div div div p:nth-of-type(2) {
-    font-size: 40px;
-    font-weight: bold;
-    background-color: var(--color-third);
-    width: fit-content;
-    margin: 10px;
-    padding: 10px 20px;
-    /* border: 1px solid white; */
-}
-#carouselExampleAutoplaying div div div p:nth-of-type(3) {
-    font-size: 15px;
-    font-weight: bold;
-    width: fit-content;
-    padding: 10px 10px;
-    text-align: start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-#carouselExampleAutoplaying div div div div button:nth-of-type(1){
-    background-color: var(--color-third);
-}
-
-#carouselExampleAutoplaying div div div div button:nth-of-type(2){
-    background-color: var(--color-primary);
-}
-
-
-
-
-
-
-#carouselExampleAutoplaying2  img{
-    height: 600px;
-    width: auto;
-    object-fit: cover;
-}
-
-#carouselExampleAutoplaying2 #btn_style{
-    align-self: center;
-    width: 40px;
-    height: 40px;
-    margin: 0px 10px;
-}
-
-#carouselExampleAutoplaying2 #btn_style:nth-of-type(1) {
-    background-color: var(--color-primary2);
-    opacity: 1;
-}
-
-#carouselExampleAutoplaying2 #btn_style:nth-of-type(2) {
-    background-color: var(--color-third2);
-    opacity: 1;
-}
-
-#carouselExampleAutoplaying2 div div div{
-    /* border: 1px solid black; */
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    width: 600px;
-    margin-bottom: 200px;
-    /* margin-left: -50px; */
-}
-#carouselExampleAutoplaying2 div div div p:nth-of-type(1) {
-    font-size: 35px;
-    font-weight: bold;
-    background-color: var(--color-primary2);
-    width: fit-content;
-    padding: 0px 20px;
-    margin: 10px;
-}
-#carouselExampleAutoplaying2 div div div p:nth-of-type(2) {
-    font-size: 40px;
-    font-weight: bold;
-    background-color: var(--color-third2);
-    width: fit-content;
-    margin: 10px;
-    padding: 10px 20px;
-    /* border: 1px solid white; */
-}
-#carouselExampleAutoplaying2 div div div p:nth-of-type(3) {
-    font-size: 15px;
-    font-weight: bold;
-    width: fit-content;
-    padding: 10px 10px;
-    text-align: start;
-}
-
-#carouselExampleAutoplaying2 div div div div button:nth-of-type(1){
-    background-color: var(--color-third2);
-}
-
-#carouselExampleAutoplaying2 div div div div button:nth-of-type(2){
-    background-color: var(--color-primary2);
-}
-
-
-
-
-#carouselExampleAutoplaying3  img{
-    height: 600px;
-    width: auto;
-    object-fit: cover;
-}
-
-#carouselExampleAutoplaying3 #btn_style{
-    align-self: center;
-    width: 40px;
-    height: 40px;
-    margin: 0px 10px;
-}
-
-#carouselExampleAutoplaying3 #btn_style:nth-of-type(1) {
-    background-color: var(--color-primary2);
-    opacity: 1;
-}
-
+#carouselExampleAutoplaying #btn_style:nth-of-type(1),
+#carouselExampleAutoplaying2 #btn_style:nth-of-type(2),
 #carouselExampleAutoplaying3 #btn_style:nth-of-type(2) {
-    background-color: var(--color-third2);
-    opacity: 1;
+    background-color: var(--color-third);
 }
 
-#carouselExampleAutoplaying3 div div div{
-    /* border: 1px solid black; */
-    padding: 0px;
-    margin: 0px;
+#carouselExampleAutoplaying #btn_style:nth-of-type(2),
+#carouselExampleAutoplaying2 #btn_style:nth-of-type(1),
+#carouselExampleAutoplaying3 #btn_style:nth-of-type(1) {
+    background-color: var(--color-primary);
+}
+
+#carouselExampleAutoplaying,
+#carouselExampleAutoplaying2,
+#carouselExampleAutoplaying3 div div div {
+    padding: 0;
+    margin: 0;
     display: flex;
-    width: 600px;
-    margin-bottom: 200px;
-    /* margin-left: -50px; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
+
+#carouselExampleAutoplaying div div div p:nth-of-type(1),
+#carouselExampleAutoplaying2 div div div p:nth-of-type(1),
 #carouselExampleAutoplaying3 div div div p:nth-of-type(1) {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
-    background-color: var(--color-primary2);
-    width: fit-content;
-    padding: 0px 20px;
-    margin: 10px;
-}
-#carouselExampleAutoplaying3 div div div p:nth-of-type(2) {
-    font-size: 40px;
-    font-weight: bold;
-    background-color: var(--color-third2);
-    width: fit-content;
-    margin: 10px;
+    background-color: var(--color-primary);
     padding: 10px 20px;
-    /* border: 1px solid white; */
+    margin: 10px;
 }
+
+#carouselExampleAutoplaying div div div p:nth-of-type(2),
+#carouselExampleAutoplaying2 div div div p:nth-of-type(2),
+#carouselExampleAutoplaying3 div div div p:nth-of-type(2) {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: var(--color-third);
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#carouselExampleAutoplaying div div div p:nth-of-type(3),
+#carouselExampleAutoplaying2 div div div p:nth-of-type(3),
 #carouselExampleAutoplaying3 div div div p:nth-of-type(3) {
     font-size: 15px;
     font-weight: bold;
-    width: fit-content;
     padding: 10px 10px;
     text-align: start;
 }
 
-#carouselExampleAutoplaying3 div div div div button:nth-of-type(1){
-    background-color: var(--color-third2);
+#carouselExampleAutoplaying div div div div button:nth-of-type(1),
+#carouselExampleAutoplaying2 div div div div button:nth-of-type(1),
+#carouselExampleAutoplaying3 div div div div button:nth-of-type(1) {
+    background-color: var(--color-third);
 }
 
-#carouselExampleAutoplaying3 div div div div button:nth-of-type(2){
-    background-color: var(--color-primary2);
+#carouselExampleAutoplaying div div div div button:nth-of-type(2),
+#carouselExampleAutoplaying2 div div div div button:nth-of-type(2),
+#carouselExampleAutoplaying3 div div div div button:nth-of-type(2) {
+    background-color: var(--color-primary);
 }
