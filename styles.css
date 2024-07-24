@@ -1,0 +1,81 @@
+:root {
+    --color-primary: rgba(17,83,161,1);
+    --color-primary-medium: rgba(17,83,161,0.5);
+    --color-primary-low: rgba(17,83,161,0.2);
+    --color-secondary: rgba(242, 243, 220, 1);
+    --color-secondary-medium: rgba(242, 243, 220, 0.5);
+    --color-secondary-low: rgba(242, 243, 220, 0.2);
+    --color-third: rgba(56,137,198, 1);
+    --color-third-medium: rgba(56,137,198, 0.5);
+    --color-third-low: rgba(56,137,198, 0.2);
+    --color-bg: rgba(242, 241, 132, 207, 177);
+}
+
+*{
+    font-family: 'NimbusSanL', Arial, sans-serif;
+}
+
+#carouselExampleAutoplaying  img{
+    height: 600px;
+    width: auto;
+    object-fit: cover;
+}
+
+#carouselExampleAutoplaying #btn_style{
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+#carouselExampleAutoplaying #btn_style:nth-of-type(1) {
+    background-color: var(--color-primary);
+    opacity: 1;
+}
+
+#carouselExampleAutoplaying #btn_style:nth-of-type(2) {
+    background-color: var(--color-third);
+    opacity: 1;
+}
+
+#carouselExampleAutoplaying div div div{
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    width: 600px;
+    margin-bottom: 200px;
+    /* margin-left: -50px; */
+}
+#carouselExampleAutoplaying div div div p:nth-of-type(1) {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: var(--color-primary);
+    width: fit-content;
+    padding: 0px 20px;
+    margin: 10px;
+}
+#carouselExampleAutoplaying div div div p:nth-of-type(2) {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--color-third);
+    width: fit-content;
+    margin: 10px;
+    padding: 10px 20px;
+    /* border: 1px solid white; */
+}
+#carouselExampleAutoplaying div div div p:nth-of-type(3) {
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px 10px;
+    text-align: start;
+}
+
+#carouselExampleAutoplaying div div div div button:nth-of-type(1){
+    background-color: var(--color-third);
+}
+
+#carouselExampleAutoplaying div div div div button:nth-of-type(2){
+    background-color: var(--color-primary);
+}
