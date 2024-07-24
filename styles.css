@@ -2,12 +2,18 @@
     --color-primary: rgba(17,83,161,1);
     --color-primary-medium: rgba(17,83,161,0.5);
     --color-primary-low: rgba(17,83,161,0.2);
+    --color-third2: rgba(255,16,61,1);
+    --color-third2-medium: rgba(255,16,61,0.5);
+    --color-third2-low: rgba(255,16,61,0.2);
     --color-secondary: rgba(242, 243, 220, 1);
     --color-secondary-medium: rgba(242, 243, 220, 0.5);
     --color-secondary-low: rgba(242, 243, 220, 0.2);
     --color-third: rgba(56,137,198, 1);
     --color-third-medium: rgba(56,137,198, 0.5);
     --color-third-low: rgba(56,137,198, 0.2);
+    --color-primary2: rgba(190,12,44, 1);
+    --color-primary2-medium: rgba(190,12,44, 0.5);
+    --color-primary2-low: rgba(190,12,44, 0.2);
     --color-bg: rgba(242, 241, 132, 207, 177);
 }
 
@@ -78,4 +84,142 @@
 
 #carouselExampleAutoplaying div div div div button:nth-of-type(2){
     background-color: var(--color-primary);
+}
+
+
+
+
+
+
+#carouselExampleAutoplaying2  img{
+    height: 600px;
+    width: auto;
+    object-fit: cover;
+}
+
+#carouselExampleAutoplaying2 #btn_style{
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+#carouselExampleAutoplaying2 #btn_style:nth-of-type(1) {
+    background-color: var(--color-primary2);
+    opacity: 1;
+}
+
+#carouselExampleAutoplaying2 #btn_style:nth-of-type(2) {
+    background-color: var(--color-third2);
+    opacity: 1;
+}
+
+#carouselExampleAutoplaying2 div div div{
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    width: 600px;
+    margin-bottom: 200px;
+    /* margin-left: -50px; */
+}
+#carouselExampleAutoplaying2 div div div p:nth-of-type(1) {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: var(--color-primary2);
+    width: fit-content;
+    padding: 0px 20px;
+    margin: 10px;
+}
+#carouselExampleAutoplaying2 div div div p:nth-of-type(2) {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--color-third2);
+    width: fit-content;
+    margin: 10px;
+    padding: 10px 20px;
+    /* border: 1px solid white; */
+}
+#carouselExampleAutoplaying2 div div div p:nth-of-type(3) {
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px 10px;
+    text-align: start;
+}
+
+#carouselExampleAutoplaying2 div div div div button:nth-of-type(1){
+    background-color: var(--color-third2);
+}
+
+#carouselExampleAutoplaying2 div div div div button:nth-of-type(2){
+    background-color: var(--color-primary2);
+}
+
+
+
+
+#carouselExampleAutoplaying3  img{
+    height: 600px;
+    width: auto;
+    object-fit: cover;
+}
+
+#carouselExampleAutoplaying3 #btn_style{
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+#carouselExampleAutoplaying3 #btn_style:nth-of-type(1) {
+    background-color: var(--color-primary2);
+    opacity: 1;
+}
+
+#carouselExampleAutoplaying3 #btn_style:nth-of-type(2) {
+    background-color: var(--color-third2);
+    opacity: 1;
+}
+
+#carouselExampleAutoplaying3 div div div{
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    width: 600px;
+    margin-bottom: 200px;
+    /* margin-left: -50px; */
+}
+#carouselExampleAutoplaying3 div div div p:nth-of-type(1) {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: var(--color-primary2);
+    width: fit-content;
+    padding: 0px 20px;
+    margin: 10px;
+}
+#carouselExampleAutoplaying3 div div div p:nth-of-type(2) {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--color-third2);
+    width: fit-content;
+    margin: 10px;
+    padding: 10px 20px;
+    /* border: 1px solid white; */
+}
+#carouselExampleAutoplaying3 div div div p:nth-of-type(3) {
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px 10px;
+    text-align: start;
+}
+
+#carouselExampleAutoplaying3 div div div div button:nth-of-type(1){
+    background-color: var(--color-third2);
+}
+
+#carouselExampleAutoplaying3 div div div div button:nth-of-type(2){
+    background-color: var(--color-primary2);
 }
